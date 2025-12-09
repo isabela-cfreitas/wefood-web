@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>WeFood</title>
+  <link rel="stylesheet" href="style/homeCliente.css" />
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="logo">
+      <h1>WeFood</h1>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Buscar estabelecimentos próximos" />
+    </div>
+    <div class="profile" id="areaLogin"></div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <section class="textBanner">
+        <h2>Fome? Peça já!</h2>
+        <p>Descubra os melhores restaurantes da sua região</p>
+    </section>
+  </section>
+
+  <!-- Categorias -->
+  <section class="categorias">
+    <h3>Categorias</h3>
+    <div class="categoria-lista">
+      <div class="categoria">
+        <img src="imagens/categorias/pizza.jpg" alt="Pizza">
+        <p>Pizza</p>
+      </div>
+      <div class="categoria">
+        <img src="imagens/categorias/hamburguer.jpg" alt="Hamburguer">
+        <p>Hamburguer</p>
+      </div>
+      <div class="categoria">
+        <img src="imagens/categorias/japones.jpg" alt="Japonês">
+        <p>Japonês</p>
+      </div>
+      <div class="categoria">
+        <img src="imagens/categorias/italiana.jpg" alt="Italiano">
+        <p>Italiano</p>
+      </div>
+      <div class="categoria">
+        <img src="imagens/categorias/chinesa.jpg" alt="Chinês">
+        <p>Chinês</p>
+      </div>
+      <div class="categoria">
+        <img src="imagens/categorias/sobremesas.jpg" alt="Sobremesas">
+        <p>Sobremesas</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filtros -->
+  <section class="filtros">
+    <h4>⚙️ Filtros</h4>
+    <div class="botoes-filtro">
+      <button onclick="tirarFiltros()">Todos</button>
+      <button onclick="filtroFreteGratis()">Frete grátis</button>
+      <button onclick="filtroMelhoresAvaliacoes()">Melhores avaliações</button>
+      <button onclick="filtroMaisProximos()">Mais próximos</button>
+      <button>Mais populares</button>
+    </div>
+  </section>
+
+  <!-- Restaurantes -->
+  <section class="restaurantes" id="listaRestaurantes"></section>
+  <script src="js/homeCliente.js"></script>
+</body>
+</html>

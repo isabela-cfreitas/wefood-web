@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 26px;
+    color: #F62932;
+    font-weight: bold;
+}
+
+.card {
+    width: 500px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.secaoTitulo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.secao {
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.secao:first-child {
+    margin-top: 0;
+}
+
+.secao:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.duas-colunas {
+    display: flex;
+    gap: 15px;
+}
+
+.duas-colunas .campo {
+    flex: 1;
+}
+
+.botao {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    padding: 14px;
+    background: #F62932;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #d41f28;
+}

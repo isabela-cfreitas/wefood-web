@@ -1,0 +1,39 @@
+# =========================
+# Node.js / Express padrão
+# =========================
+
+# Dependências
+node_modules/
+package-lock.json
+
+# Logs e caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Build / distribuição (se houver)
+dist/
+build/
+tmp/
+temp/
+
+# Arquivos do editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testes (se gerar artefatos)
+coverage/

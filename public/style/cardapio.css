@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#restLogo {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#listaCardapio {
+    margin-top: 20px;
+}
+
+.item-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.item-card img {
+    width: 130px;
+    border-radius: 8px;
+}
+
+.item-info {
+    max-width: 70%;
+}
+
+.input-quantidade {
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    padding: 0;
+}
+
+.botao {
+    background-color: #F62932;
+    color: white;
+    font-size: 14px;
+    width: 80%;
+    padding: 12px;
+    font-family: "Inter", Arial, sans-serif;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #d71e28;
+}
+

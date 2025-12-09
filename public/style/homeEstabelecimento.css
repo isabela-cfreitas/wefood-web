@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+
+.sidebar {
+    width: 260px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo h1 {
+    margin: 0;
+    color: #F62932;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.status-loja {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.status {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.status.abrir {
+    background-color: #32CD32;
+    color: #fff;
+}
+
+.status.fechar {
+    background-color: #F62932;
+    color: #fff;
+}
+
+.status:hover {
+    opacity: 0.85;
+}
+
+.menu {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu-item {
+    padding: 10px 15px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+}
+
+.menu-item.selecionado {
+    background-color: #F62932;
+    color: white;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px 40px;
+    overflow-y: auto;
+}
+
+.topo h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tabs {
+    display: flex;
+    margin: 15px auto; 
+    margin-top: 15px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.tab {
+    flex: 1;
+    padding: 8px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.tab.ativo {
+    background-color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.pedidos {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pedido-card {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.pedido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pedido-header .numero {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pedido-header .valor {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.status-novo {
+    background-color: #F62932;
+}
+
+.status-preparando {
+    background-color: #E9C137;
+}
+
+.status-pronto {
+    background-color: #00B7FF;
+}
+
+.pedido-info p {
+    margin: 3px 0;
+    font-size: 15px;
+}
+
+.pedido-itens {
+    margin-top: 12px;
+}
+
+.pedido-itens p {
+    margin: 3px 0;
+}
+
+.btn-acao {
+    margin-top: 15px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #F62932;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-acao:hover {
+    opacity: 0.85;
+}

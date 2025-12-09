@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeFood - Gestão de Pedidos</title>
+    <link rel="stylesheet" href="style/homeEstabelecimento.css"> 
+</head>
+<body>
+
+    <div class="layout">
+
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h1>WeFood</h1>
+            </div>
+
+            <div id="areaLogin"></div>
+
+            <div class="status-loja">
+                <button id="btnAbrir" class="status abrir">Aberto</button>
+                <button id="btnFechar" class="status fechar">Fechar</button>
+            </div>
+
+            <nav class="menu">
+                <button class="menu-item selecionado">Pedidos</button>
+                <button class="menu-item">Configurações</button>
+            </nav>
+
+        </aside>
+
+        <main class="conteudo">
+
+            <header class="topo">
+                <h2>Gestão de pedidos</h2>
+
+                <div class="tabs">
+                    <button class="tab ativo">Pendências</button>
+                    <button class="tab">Histórico</button>
+                </div>
+            </header>
+
+            <section id="listaPedidos" class="pedidos"></section>
+
+        </main>
+
+    </div>
+
+    <script src="js/homeEstabelecimento.js"></script>
+</body>
+</html>

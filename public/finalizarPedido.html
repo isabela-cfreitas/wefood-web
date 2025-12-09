@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>WeFood - Finalizar Pedido</title>
+        <link rel="stylesheet" href="style/carrinho.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Finalizar Pedido</h1>
+        </header>
+
+        <div class="container">
+            <div class="coluna esquerda">
+                
+                <h1 class="headColuna">Endereço de entrega</h1>
+                
+                <!-- Adicionei APENAS name="endereco" -->
+                <select id="enderecos" name="endereco"></select>
+
+                <h1 class="headColuna">Forma de entrega</h1>
+
+                <input type="radio" name="entrega" id="retirar" value="retirar"/>
+                <label for="retirar">Retirar no estabelecimento</label>
+
+                <input type="radio" name="entrega" id="delivery" value="delivery"/>
+                <label for="delivery">Delivery</label>
+                
+                <h1 class="headColuna">Forma de pagamento</h1>
+
+                <input type="radio" name="pagamento" id="credito" value="credito"/>
+                <label for="credito">Cartão de Crédito</label>
+
+                <input type="radio" name="pagamento" id="debito" value="debito"/>
+                <label for="debito">Cartão de Débito</label>
+
+                <input type="radio" name="pagamento" id="pix" value="pix"/>
+                <label for="pix">Pix</label>
+
+                <input type="radio" name="pagamento" id="dinheiro" value="dinheiro"/>
+                <label for="dinheiro">Dinheiro</label>
+
+                <h1 class="headColuna">Observações</h1>
+                <textarea id="observacoes" rows="7" cols="60"></textarea>
+
+            </div>
+
+            <div class="coluna direita">
+                <h1 class="headColuna">Resumo do pedido</h1>
+                <section id="resumo" class="resumo"></section>
+                <button id="btnEnviarPedido" class="botao">Finalizar Pedido</button>
+            </div>
+        </div>
+
+        <script src="js/finalizarPedido.js"></script> 
+    </body>
+</html>

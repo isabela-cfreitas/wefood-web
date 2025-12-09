@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Estabelecimento</title>
+    <link rel="stylesheet" href="style/cadastroCliente.css">
+</head>
+<body>
+
+<h1>Cadastro de Estabelecimento</h1>
+
+<div class="card">
+
+    <div class="secao">
+        <div class="secaoTitulo">Informações do Estabelecimento</div>
+
+        <div class="campo">
+            <label>Nome do estabelecimento</label>
+            <input type="text" id="nome">
+        </div>
+
+        <div class="campo">
+            <label>Email</label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="duas-colunas">
+            <div class="campo">
+                <label>Telefone</label>
+                <input type="text" id="telefone">
+            </div>
+
+            <div class="campo">
+                <label>CNPJ</label>
+                <input type="text" id="cnpj">
+            </div>
+        </div>
+    </div>
+
+    <div class="secao">
+        <div class="secaoTitulo">Endereço do Estabelecimento</div>
+
+        <div class="campo">
+            <label>CEP</label>
+            <input type="text" id="cep">
+        </div>
+
+        <div class="campo">
+            <label>Rua</label>
+            <input type="text" id="rua">
+        </div>
+
+        <div class="duas-colunas">
+            <div class="campo">
+                <label>Número</label>
+                <input type="text" id="numero">
+            </div>
+
+            <div class="campo">
+                <label>Complemento</label>
+                <input type="text" id="complemento">
+            </div>
+        </div>
+
+        <div class="duas-colunas">
+            <div class="campo">
+                <label>Bairro</label>
+                <input type="text" id="bairro">
+            </div>
+
+            <div class="campo">
+                <label>Cidade</label>
+                <input type="text" id="cidade">
+            </div>
+        </div>
+    </div>
+
+    <div class="secao">
+        <div class="campo">
+            <label>Senha</label>
+            <input type="password" id="senha">
+        </div>
+
+        <div class="campo">
+            <label>Confirmar senha</label>
+            <input type="password" id="confirmarSenha">
+        </div>
+    </div>
+
+    <button class="botao" onclick="enviarFormulario()">Criar conta</button>
+    <script src="js/cadastroEstabelecimento.js"></script>
+
+</div>
+
+</body>
+</html>
