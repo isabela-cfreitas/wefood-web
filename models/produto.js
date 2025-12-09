@@ -1,3 +1,4 @@
+//dupla: isabela de castro freitas(112692) e pedro henrique coura pereira(112693)
 class Produto {
     constructor(id, nome, valor, cnpj_estabelecimento, imagem) {
         this._id = id;

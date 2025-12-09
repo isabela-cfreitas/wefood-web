@@ -1,3 +1,4 @@
+//dupla: isabela de castro freitas(112692) e pedro henrique coura pereira(112693)
 async function enviarFormulario() { //essa função é chamada por onclick no botão do html de cadastro, aí ela pega os dados dos labels por ip
     const email = document.getElementById("email").value;
     const senha = document.getElementById("senha").value;

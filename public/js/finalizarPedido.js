@@ -1,3 +1,4 @@
+//dupla: isabela de castro freitas(112692) e pedro henrique coura pereira(112693)
 document.addEventListener("DOMContentLoaded", () => {
     carregarEnderecos();
 });

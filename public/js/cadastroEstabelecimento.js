@@ -1,3 +1,4 @@
+//dupla: isabela de castro freitas(112692) e pedro henrique coura pereira(112693)
 async function enviarFormulario() {
     const nome = document.getElementById("nome").value;
     const email = document.getElementById("email").value;
