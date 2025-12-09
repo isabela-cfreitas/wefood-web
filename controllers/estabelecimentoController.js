@@ -1,3 +1,4 @@
+//dupla: isabela de castro freitas(112692) e pedro henrique coura pereira(112693)
 const EstabelecimentoModel = require("../models/EstabelecimentoModel");
 const bcrypt = require("bcrypt");
 

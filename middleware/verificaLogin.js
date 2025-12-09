@@ -1,3 +1,4 @@
+//dupla: isabela de castro freitas(112692) e pedro henrique coura pereira(112693)
 module.exports = function verificaLogin(req, res, next) {//função middleware, pois tem next, roda antes de algum handle
     //valida se tem sessao ativa com o sessionid fornecido pelo cookie ou nao
     if (!req.session.user) {

@@ -1,3 +1,4 @@
+//dupla: isabela de castro freitas(112692) e pedro henrique coura pereira(112693)
 class Cliente extends Usuario {
     constructor(nome, numTelefone, email, hashSenha, cpf, endereco) {
         super(nome, numTelefone, email, hashSenha);
